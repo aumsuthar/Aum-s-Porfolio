@@ -1,0 +1,17 @@
+---
+import 'katex/dist/katex.min.css';
+import katex from 'katex';
+
+const { code } = Astro.props;
+---
+
+<script type="module">
+  document.addEventListener('DOMContentLoaded', () => {
+    const elements = document.querySelectorAll('.latex');
+    elements.forEach(el => {
+      katex.render(el.textContent, el, { throwOnError: false });
+    });
+  });
+</script>
+
+<div class="latex">{code}</div>
