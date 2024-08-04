@@ -13,6 +13,7 @@ import { remarkReadingTime } from "./src/utils/remark-reading-time";
 
 // https://astro.build/config
 export default defineConfig({
+
 	image: {
 		domains: ["github.io"],
 	},
