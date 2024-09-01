@@ -18,7 +18,7 @@
 		"@fontsource/inter": "^5.0.20",
 		"astro": "^4.14.2",
 		"astro-expressive-code": "^0.35.3",
-		"astro-icon": "^1.1.0",
+		"astro-icon": "^1.1.1",
 		"cssnano": "^7.0.4",
 		"katex": "^0.16.11",
 		"rehype-external-links": "^3.0.0",
